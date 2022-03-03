@@ -3,7 +3,7 @@ const webTitle = "Nuxt Web Template Example";
 module.exports = {
   target: "static",
   router: {
-    base: "/princesstreet",
+    base: "/nuxt-web-template",
   },
   head: {
     htmlAttrs: {
