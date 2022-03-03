@@ -1,10 +1,6 @@
 const webTitle = "Nuxt Web Template Example";
 
 module.exports = {
-  target: "static",
-  router: {
-    base: "/nuxt-web-template",
-  },
   head: {
     htmlAttrs: {
       lang: "en",
