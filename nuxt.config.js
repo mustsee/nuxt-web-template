@@ -2,9 +2,6 @@ const webTitle = "Nuxt Web Template Example";
 
 module.exports = {
   target: "static",
-  router: {
-    base: "/nuxt-web-template",
-  },
   head: {
     htmlAttrs: {
       lang: "en",
@@ -90,9 +87,9 @@ module.exports = {
       chunk: "[name].js",
     },
   },
-  env: {
+  /*   env: {
     //fixed axios ECONNREFUSED for static local json
     //baseUrl: process.env.BASE_URL || "http://localhost:3000",
-    baseUrl: "/nuxt-web-template",
-  },
+    //baseUrl: "/nuxt-web-template",
+  }, */
 };
